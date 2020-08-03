@@ -7,7 +7,7 @@
   "private": true,
   "publishConfig": {
     "access": "public",
-    "main": "dist/index.esm.js",
+    "main": "dist/index.cjs.js",
     "types": "dist/index.d.ts"
   },
   "scripts": {
@@ -40,6 +40,7 @@
     "supertest": "^4.0.2"
   },
   "files": [
-    "dist"
+    "dist",
+    "schema.gql"
   ]
 }
